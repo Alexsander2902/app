@@ -1,0 +1,76 @@
+.main{
+  background: #ffffff;
+  padding: 3em;
+  margin: 5em auto;
+  max-width: 50em;
+  border-radius: 0.4em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+}
+
+.main h1 {
+  font-size: 4vh;
+  text-align: center;
+}
+
+.form{
+  margin-top: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type = "text"] {
+  height: 4vh;
+  padding: 0 2em;
+  font-size: 2em;
+  border: 0.3vh solid #ccc;
+  min-width: 80%;
+}
+
+.form button[type="submit"]{
+  border: none;
+  height: 4vh;
+  width: 4vh;
+  background: #4811ca;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form:hover button[type="submit"]{
+  background: #af5e1c;
+}
+
+.fields {
+  margin-top: 3em;
+}
+
+.fields li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  transition: all 00ms;
+}
+
+.fields li:hover {
+  background: #26a0c5;
+  color: #ffffff;
+}
+
+.fields li .edit {
+  margin-right: 1.5em;
+  color: #062d75
+}
+
+.fields li .delete {
+  margin-right: 1.5em;
+  color: #af1c1c;
+}
+
+.fields li .edit,
+.fields li .delete {
+  cursor: pointer;
+}
+
